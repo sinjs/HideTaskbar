@@ -38,7 +38,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: release-artifact
-        path: ${{env.GITHUB_WORKSPACE}}/x64/${{env.BUILD_CONFIGURATION}}
+        path: ${{env.GITHUB_WORKSPACE}}/HideTaskbar/x64/${{env.BUILD_CONFIGURATION}}
         # Adjust the path above to match the output directory of your build.
         # For example, if your build outputs to 'bin/Release', the path should be as shown.
         # If your output directory is different, update the path accordingly.
